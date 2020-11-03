@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#000"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="0dp"
+           android:paddingLeft="10dp"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:textColor="#fff"
+           android:layout_weight="3"
+           android:textSize="20sp"
+           android:text="LAP">
+       </TextView>
+
+       <TextView
+           android:id="@+id/id1"
+           android:layout_width="0dp"
+           android:paddingLeft="10dp"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:textColor="#fff"
+           android:layout_weight="7"
+           android:textSize="20sp"
+           >
+   </TextView>
+
+       <TextView
+           android:id="@+id/t1"
+           android:layout_width="0dp"
+           android:textColor="#fff"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:text="00">
+       </TextView>
+       <TextView
+           android:layout_width="0dp"
+           android:textColor="#fff"
+           android:layout_height="match_parent"
+           android:layout_weight="0.3"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:text=":">
+       </TextView>
+
+       <TextView
+           android:id="@+id/t2"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textColor="#fff"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:text="00">
+       </TextView>
+       <TextView
+           android:layout_width="0dp"
+           android:textColor="#fff"
+           android:layout_height="match_parent"
+           android:layout_weight="0.3"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:text=".">
+       </TextView>
+
+       <TextView
+           android:id="@+id/t3"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textColor="#fff"
+           android:gravity="center"
+           android:textSize="20sp"
+           android:text="00">
+       </TextView>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
